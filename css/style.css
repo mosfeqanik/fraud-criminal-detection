@@ -1,0 +1,409 @@
+*{
+	margin: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 2px;
+}
+
+.container{
+	width: 1170px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+//* -------------------Header Start-------------*//
+header{
+	width: 1170px;
+	margin-top: 5px;
+}
+
+.header-left{
+	width: 300px;
+	height: 100px;
+	float: left;
+
+}
+.header-left img{
+	margin-top: 10px;
+}
+
+.header-right{
+	width: 870px;
+	height: 100px;
+	float: right;
+}
+
+.top-nav{
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	overflow: hidden;
+	float: right;
+}
+
+.top-nav ul{
+	text-align: right;
+	word-spacing: 10px;
+	font-size: 13px;
+
+
+}
+.top-nav ul li{
+	list-style: none;
+	display: inline;
+
+	
+}
+
+.top-nav ul li a{
+	text-decoration: none;
+
+}
+
+.top-nav ul li a:hover{
+	color: #4ABDE3;
+
+}
+
+.request-button{
+	background: #009ED9;
+	border: medium none;
+	color: #fff;
+	font-weight: bold;
+	padding: 2px 1px;
+}
+
+.main-nav{
+	margin-top: 15px;
+	float: left;
+	font-weight: bold;
+	margin-left: 65px;
+	font-size: 15px;
+}
+
+.main-nav nav ul{
+	word-spacing: 20px;
+}
+
+.main-nav nav ul li{
+	display: inline;
+	list-style: none;
+}
+img {
+    vertical-align: middle;
+ }
+
+ .main-nav nav ul li a{
+ 	text-decoration: none;
+ }
+
+ .main-nav nav ul li a:hover{
+ 	color: #4ABDE3;
+ }
+
+ .contact-number{
+ 	float: right;
+	margin-top: 8px;
+	border-left: 1px solid #ddd;
+	padding-left: 15px;
+	font-weight: 700;
+	font-size: 20px;
+	color: #0f6470;
+	overflow: hidden;
+ }
+ .main{
+ 	width: 1200px;
+ 	min-height: 650px;
+ 	float: left;
+ }
+
+{box-sizing:border-box}
+body {font-family: Verdana,sans-serif;margin:0}
+.mySlides {display:none}
+
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.services-area{
+	width: 1170px;
+	margin-top: 30px;
+	float: left;
+}
+
+.services-left{
+	width: 850px;
+	float: left;
+	font-weight: 300;
+	font-size: 14px;
+}
+
+.services-right{
+	width: 290px;
+	float: right;
+}
+.Recent-news{
+	background: #009ED9;
+	border: medium none;
+	color: #fff;
+	padding: 5px;
+	text-align: center;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.news1{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.img-responsive1{
+	margin: 0 auto;
+	width: 70px;
+	height: 32px;
+	display: block;
+	float: left;
+}
+
+.news2{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 50px;
+	text-align: center;
+}
+.img-responsive2{
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+	display: block;
+	float: left;
+}
+
+.news3{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 40px;
+	text-align: center;
+}
+.img-responsive3{
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+	display: block;
+	float: left;
+}
+
+.news4{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.img-responsive4{
+	margin: 0 auto;
+	width: 70px;
+	height: 32px;
+	display: block;
+	float: left;
+}
+
+.news5{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+	text-align: center;
+}
+.img-responsive5{
+	margin: 0 auto;
+	width: 70px;
+	height: 32px;
+	display: block;
+	float: left;
+}
+
+.news6{
+	font-weight: 300;
+	font-size: 14px;
+	margin-top: 10px;
+	border-bottom: 1px solid #ddd;
+	padding-bottom: 30px;
+	text-align: center;
+}
+.img-responsive6{
+	margin: 0 auto;
+	width: 80px;
+	height: 80px;
+	display: block;
+	float: left;
+}
+
+.img-responsive7{
+	width: 290px;
+
+}
+.img-responsive8{
+	width: 290px;
+	padding-top: 10px;
+
+}
+.footer{
+	width: 1170px;
+	float: left;
+	margin-top: 20px;
+	background: #DFE7EA;
+	height: 290px;
+}
+
+.navigation{
+	width: 190px;
+	float: left;
+	margin-top: 10px;
+	font-weight: 300;
+	font-size: 14px;
+}
+.navigation ul li{
+	list-style: none;
+}
+.navigation ul li a{
+	text-decoration: none;
+
+}
+.footer-services{
+	width: 210px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 120px;
+	font-weight: 300;
+	font-size: 14px;
+}
+.popular-social{
+	width: 210px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 100px;
+	font-weight: 300;
+	font-size: 14px;
+}
+.popular-social ul li a{
+	text-decoration: none;
+}
+.popular-social ul li{
+	list-style: none;
+}
+.copyright{
+	width: 270px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 70px;
+	font-weight: 300;
+	font-size: 14px;
+
+}
+.copyright-para{
+	margin-top: 10px;
+	padding: 16px;
+	text-align: center;
+}
+.copyright-para2{
+	font-weight: 300;
+	font-size: 10px;
+}

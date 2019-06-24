@@ -54,7 +54,6 @@
                         <input type="radio" name="question-2-answers" id="question-2-answers-A" value="A" checked="A" />
                         <label for="question-2-answers-A">A) 6 lac</label>
                     </div>
-                    
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-B" value="B" />
                         <label for="question-2-answers-B">B) 3 Lac</label>
@@ -63,8 +62,7 @@
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-C" value="C" />
                         <label for="question-2-answers-C">C) 2 lac</label>
-                    </div>
-                    
+                    </div>                
                     <div>
                         <input type="radio" name="question-2-answers" id="question-2-answers-D" value="D" />
                         <label for="question-2-answers-D">D) 5 lac</label>
